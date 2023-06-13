@@ -839,7 +839,7 @@ preloader
     margin-top: 12px;
     margin-left: 31px;
     -webkit-animation: dots 2.8s infinite;
-    animation: dots 2.8s infinite;
+    animation: dots .8s infinite;
 }
 
 .preloader-inner .dots span {
@@ -891,6 +891,7 @@ Banner Style
   width: 700px;
   height: 574px;
   border-radius: 80%;
+  
 }
 
 .main-banner .item {
@@ -1177,26 +1178,28 @@ Portfolio
   bottom: -240px;
   right: 30px;
   width: 239px;
-  height: 210px;
+  height: 410px; 
 }
 
 .our-portfolio .item .hover-effect .inner-content {
   position: absolute;
-  right: 30px;
-  bottom: 30px;
-  text-align: right;
+  right: 3px;
+  left: 3px;
+  bottom: 3px;
+  top: 5px;
+  text-align: center;
 }
 
 .our-portfolio .item .hover-effect .inner-content h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: #000;  
   margin-bottom: 15px;
 }
 
 .our-portfolio .item .hover-effect .inner-content span {
   font-size: 15px;
-  color: #fff;
+  color: #000;
 }
 
 .our-portfolio .item .thumb img {
