@@ -888,9 +888,10 @@ Banner Style
   position: absolute;
   right: 0;
   top: 100px;
-  width: 700px;
-  height: 574px;
+  width: 600px;
+  height: 474px;
   border-radius: 80%;
+  margin-top: 3%;
   
 }
 
