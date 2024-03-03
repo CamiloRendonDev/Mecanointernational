@@ -1077,7 +1077,7 @@ About
 
 .about-us {
   margin-top: 0px;
-  padding-top: 120px;
+  padding-top: 00px;
 }
 
 .about-us .left-image {
@@ -1180,6 +1180,11 @@ Portfolio
   right: 30px;
   width: 239px;
   height: 410px; 
+}
+
+ /* CSS personalizado para anular el borde en card-body */
+ .card {
+  border: none !important;
 }
 
 .our-portfolio .item .hover-effect .inner-content {
@@ -1677,7 +1682,7 @@ contact
 .contact-us {
   z-index: 2;
   position: relative;
-  padding-top: 120px;
+  padding-top: 0px;
   margin-top: 0px;
 }
 
@@ -1795,7 +1800,7 @@ Footer Style
 }
 
 footer {
-  margin-top: -50px;
+  margin-top: 50px;
   z-index: 2;
   position: relative;
 }
